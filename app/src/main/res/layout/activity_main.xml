@@ -28,7 +28,7 @@
             android:textSize="20dp"
             android:text="Touch me now!!"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="500dp"/>
+            android:layout_marginTop="470dp"/>
 
     </RelativeLayout>
 
