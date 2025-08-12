@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d(TAG, "버튼이 클릭 되었음");
                 textView.setText("Welcome!!!");
+                button.setText("Well Done!!!");
             }
         });
     }
