@@ -24,11 +24,11 @@
         <Button
             android:id="@+id/button"
             android:layout_width="200dp"
-            android:layout_height="100dp"
+            android:layout_height="70dp"
             android:textSize="20dp"
             android:text="Touch me now!!"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="470dp"/>
+            android:layout_marginTop="490dp"/>
 
     </RelativeLayout>
 
