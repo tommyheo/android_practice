@@ -5,6 +5,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,8 +26,12 @@ public class MainActivity extends AppCompatActivity {
 
         /* setContentView를 통해서 Layout 가벼옴 */
         setContentView(R.layout.activity_main);
-
         Log.d(TAG, "onCreate 메소드 호출");
+
+        Toast toast = Toast.makeText(this, "앱이 정상적으로 실행되었습니다.", Toast.LENGTH_LONG);
+
+        toast.show();
+
 
         /* 레이아웃의 요소 가져오기 */
         TextView textView = findViewById(R.id.textView);    // Text
